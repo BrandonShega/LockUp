@@ -1,0 +1,1 @@
+var lockup=angular.module("lockup",["ionic","firebase"]),fb=new Firebase("https://lockup.firebase.io");lockup.factory("$cipherFactory"),lockup.run(function(o){o.ready(function(){window.cordova&&window.cordova.plugins.Keyboard&&cordova.plugins.Keyboard.hideKeyboardAccessoryBar(!0),window.StatusBar&&StatusBar.styleDefault()})});
